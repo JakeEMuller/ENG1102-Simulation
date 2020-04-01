@@ -1,4 +1,4 @@
-function[PPA] = calcPPA(Frider, vel)
+function[PPA, Prider] = calcPPA(Frider, vel)
 
 countabovezero = 0;
 PPA = 0;
