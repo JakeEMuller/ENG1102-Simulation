@@ -5,7 +5,7 @@ p = 1.256; %rho
 C = 0.8;   %air drag coefficient
 Airforce = 0;
 for N = 1:length(Velocity)
-Airforce(N) = (1/2)*p(frontalArea)*(C)*(Velocity(N))^2;
+Airforce(N) = (1/2)*p*(frontalArea)*(C)*(Velocity(N))^2;
 end
 end
 

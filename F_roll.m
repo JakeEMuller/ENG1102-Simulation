@@ -3,7 +3,7 @@ function RollingForce = F_roll(slope, mass)
 C = 0.03;
 g = 9.8;
 RollingForce = 0;
-for N = 1:lenght(slope)
+for N = 1:length(slope)
     RollingForce = C * mass * g * cosd(slope(N));
 end
 end
