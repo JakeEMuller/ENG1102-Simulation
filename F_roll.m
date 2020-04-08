@@ -4,7 +4,7 @@ C = 0.03;
 g = 9.8;
 RollingForce = 0;
 for N = 1:length(slope)
-    RollingForce = C * mass * g * cosd(slope(N));
+    RollingForce(N) = C * mass * g * cosd(slope(N));
 end
 end
 
